@@ -10941,12 +10941,6 @@ a {
   max-width: 975px;
 }
 
-.form-control {
-  height: 36px;
-  min-width: 125px;
-  width: 286px;
-}
-
 .px-20 {
   padding-left: 20px;
   padding-right: 20px;
@@ -10994,6 +10988,17 @@ nav .search-box {
 nav .search-box .search-info {
   padding: 3px 16px;
 }
+@media (max-width: 628px) {
+  nav .search-box {
+    display: none;
+  }
+}
 nav .icon-box {
   margin-left: 22px;
+}
+
+.rounded-50 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
