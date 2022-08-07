@@ -10937,6 +10937,10 @@ a {
   text-decoration: none;
 }
 
+.bg-light {
+  background-color: #fff !important;
+}
+
 .container {
   max-width: 975px;
 }
@@ -10944,6 +10948,12 @@ a {
 .px-20 {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.rounded-50 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
 }
 
 input {
@@ -10997,8 +11007,11 @@ nav .icon-box {
   margin-left: 22px;
 }
 
-.rounded-50 {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
+.main {
+  max-width: 821;
+}
+
+.left {
+  max-width: 470px;
+  margin-right: 32px;
 }/*# sourceMappingURL=style.css.map */
