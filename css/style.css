@@ -10929,12 +10929,20 @@ textarea.form-control-lg {
   position: relative;
 }
 
+ul, li {
+  list-style: none;
+}
+
 img {
   width: 100%;
 }
 
 a {
+  color: #262626;
   text-decoration: none;
+}
+a:hover {
+  color: #262626;
 }
 
 .bg-light {
@@ -11014,4 +11022,56 @@ nav .icon-box {
 .left {
   max-width: 470px;
   margin-right: 32px;
+}
+
+.times-box {
+  cursor: pointer;
+}
+.times-box .time-img-box {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  border-width: 2px !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-bar {
+  align-items: stretch;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+.scroll-bar .times-box {
+  vertical-align: baseline;
+}
+
+.post-img-box {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.post-img-box small, .post-img-box .small {
+  padding-left: 10px;
+}
+.post-img-box img {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.post-icon {
+  font-size: 24px;
+}
+
+@media (max-width: 1000px) {
+  .right {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
