@@ -148,3 +148,15 @@ nav {
         display: none;
     }
 }
+.card-body{
+    padding: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    i{
+        font-size: 24px;
+        padding: 8px;
+    }
+}
+.card-footer{
+    background-color: #fff;
+}
