@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     position: relative;
-    overflow-x: hidden;
 }
 ul,li{
     list-style: none;
@@ -25,6 +24,7 @@ a {
 }
 .container {
     max-width: 975px;
+    overflow-x: hidden;
 }
 
 .px-20 {

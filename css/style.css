@@ -10927,7 +10927,6 @@ textarea.form-control-lg {
   margin: 0;
   box-sizing: border-box;
   position: relative;
-  overflow-x: hidden;
 }
 
 ul, li {
@@ -10952,6 +10951,7 @@ a:hover {
 
 .container {
   max-width: 975px;
+  overflow-x: hidden;
 }
 
 .px-20 {
