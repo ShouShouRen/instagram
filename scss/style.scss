@@ -135,11 +135,7 @@ nav {
 .post-icon{
     font-size: 24px;
 }
-.right{
-    @media (max-width: 1000px) {
-        display: none;
-    }
-}
+
 .card-body{
     padding: 0;
     padding-left: 12px;
@@ -151,4 +147,17 @@ nav {
 }
 .card-footer{
     background-color: #fff;
+}
+.right{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    @media (max-width: 1000px) {
+        display: none;
+    }
+    .right-img-box{
+        width: 56px;
+        height: 56px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
 }
